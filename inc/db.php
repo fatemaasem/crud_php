@@ -1,0 +1,10 @@
+<?php
+$user_name='root';
+$password='';
+$dbname='crud';
+$server_name='localhost';
+$conn=mysqli_connect($server_name,$user_name,$password,$dbname);
+if(!$conn){
+    die(mysqli_connect_error());
+}
+?>
